@@ -51,7 +51,7 @@ Then I installed the Ruby version of my choice:
 	rbenv global 2.7.1
 	
 	which ruby
-	/Users/ys/.rbenv/shims/ruby
+	$HOME/.rbenv/shims/ruby
 
 	ruby -v
 	ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-darwin19]
@@ -72,7 +72,7 @@ and add the path of my Ruby version
 
 	- GEM PATHS:
 		- /usr/local/lib/ruby/gems/2.7.0
-		- /Users/ys/.gem/ruby/2.7.0
+		- $HOME/.gem/ruby/2.7.0
 		- /usr/local/Cellar/ruby/2.7.1_2/lib/ruby/gems/2.7.0
 
 Bundler is also recommended in the guide, as it tracks the exact gems and versions that are required for each project. I first initialized the bundler.
